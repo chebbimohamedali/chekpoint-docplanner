@@ -1,0 +1,367 @@
+
+body {
+    font-weight: 200;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    -webkit-font-smoothing: antialiased;
+    margin: 100px;
+    margin-bottom: 0px;
+}
+.logo img {
+    width: 268px;
+    height: 33px;
+  }
+.container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background-color: #ffffff;;
+    box-shadow: 0 1px 5px 0 #d3cfc9;
+}
+.entet{
+    display: flex;
+    justify-content: space-between;
+    gap: 600px;
+  }
+#wrap{
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    position: relative;
+}
+
+.navbar {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    
+  }
+
+  .navbar li {
+    height: auto;
+    width: 135px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font-size: .9375rem;
+    padding: 0;
+    margin: 0;
+  }
+  .navbar a {
+    padding: 18px 0;
+    text-decoration: none;
+    color: #ababab;
+    display: block;
+  }
+  .navbar li:hover, a:hover {
+  color: #00b39b;
+}
+.navbar li ul {
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar li:hover ul {
+    display: block;
+  }
+  .navbar li ul li {
+    background-color: #fff;
+  }
+
+  .navbar li ul li a:hover {
+    background-color: rgba(227, 242, 255, 0.267);
+}
+
+.para{
+    display: flex;
+}
+.logo-sec1{
+    display: block;
+    margin: 0 auto;
+}
+.sec1{
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 2.0625rem auto 3.75rem;
+}
+.sec1 h1 {
+    text-align: center;
+}
+h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+    margin: 1em 0;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+.sec2{
+    max-width: 1015px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+}
+.sec1 p{
+    min-height: 1px;
+    padding: 10px;
+}
+
+
+    
+.col-pat{
+    background-color: #00ccb1;
+    width: 30%;
+}
+.col-doc{
+    background-color: #3d83df;
+    width: 30%;
+}
+.col-clin{
+    background-color: #1b2734;
+    width: 30%;
+}
+.col{
+    max-width: 1015px;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    height: 280px;
+    display: block;
+    flex-direction: column;
+    justify-content: space-between; 
+    padding: 10px; 
+}
+
+.col h3 {
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: 0.3em 0;
+    padding-bottom: 10px;
+}
+.col  h4 {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.col{
+    transition: all .35s ease 0s;
+    box-sizing: inherit;
+}
+
+.opt select {
+    font-size: 1.2rem;
+    text-decoration: underline;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+  }
+  .opt option{
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #333;
+  }
+  .list-pat{
+    padding-top: 30px;
+  }
+  .list-doc{
+    padding-top: 55px;
+  }
+
+  .col:hover{
+    opacity:.9
+  }
+
+  .company{
+    zoom: 1;
+    max-width: 1015px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+  .logo-company{
+    align-items:center;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    font-size:0;
+    list-style:none;
+    width:67%
+  }
+  .logo-company{
+    margin:2.5rem auto 3.125rem
+}
+.logo-company h1{
+    float:left;
+    width:33%;
+    font-size:1.625em;
+    margin:.25em 0 .35em;
+    padding-right:1em
+}
+.logo-company li{
+    font-size:1rem;
+    display:inline-block;
+    margin-top:0;
+    padding:5px 0 5px 5px;
+    width:25%
+}
+.logo-company .clinicloud img,.logo-company .gipo img,.logo-company .jameda img,.logo-company .tuotempo img{
+    transition:all .2s ease 0s;
+    filter:invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    -webkit-filter:invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    opacity:.55
+}
+.logo-company .clinicloud:hover img,.logo-company .feegow:hover img,.logo-company .gipo:hover img,.logo-company .jameda:hover img,.logo-company .tuotempo:hover img{
+    filter:none;
+    opacity:1
+}
+.logo-company .tuotempo img{
+    height:16px
+}
+.logo-company .jameda img{
+    height:20px
+}
+.logo-company .clinicloud,.logo-company .gipo{
+    width:12.5%
+}
+.logo-company .clinicloud img,.logo-company .gipo img{
+    height:34px
+}
+.logo-company a{
+    display:inline-block;
+    padding:5px 0
+}
+.logo-company a svg{
+    height:20px;
+    width:auto;
+    max-width:100%
+}
+.logo-company a path{
+    transition:all .2s ease 0s;
+    fill:hsla(0,0%,67%,.7)
+}
+.logo-company a:hover path{
+    fill:#00bfa5
+}
+
+
+
+
+.offices{
+    margin-top:5.5rem;
+    margin-bottom:5rem;
+}
+.offices__header{
+    max-width:460px;
+    margin:0 auto 4.1875rem;
+    font-size:.875em;
+    text-align:center
+}
+.offices__header p{
+    line-height:1.7142857143
+}
+.offices__header h1{
+    font-size:2.1428571429em
+}
+.office{
+    padding:10px
+}
+.office__inner{
+    background:#fff;
+    border:1px solid rgba(0,0,0,.03);
+    border-radius:6px;
+    overflow:hidden;
+    max-width:311px;
+    z-index:2;
+    position:relative;
+    display:block;
+    color:#747474
+}
+.office__inner:hover{
+    text-decoration:none
+}
+.office__image img{
+    display:block;
+    margin:0 auto
+}
+.office__desc{
+    font-size:1.125em;
+    font-weight:400;
+    line-height:1.6666666667;
+    padding:1.1111111111em
+}
+.office .btn{
+    float:right
+}
+
+.btn{
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+    outline:0;
+    border:0;
+    border-radius:4px;
+    padding:1.1666666667em 1.5em;
+    background:#3d83df;
+    font-family:Roboto,Arial,sans-serif;
+    line-height:1em;
+    color:#fff;
+    font-weight:700;
+    letter-spacing:.04em;
+    font-size:.75rem;
+    text-align:center;
+    text-decoration:none!important;
+    text-transform:uppercase;
+    transition:all .2s ease 0s
+}
+.btn:hover{
+    color:#fff;
+    background:#1662c6
+}
+.btn--small{
+    font-size:.625rem;
+    padding:1em 1.5em
+}
+.btn[class*=btn--icon]{
+    position:relative;
+    padding-right:.7em
+}
+.btn[class*=btn--icon]:after{
+    font-family:icons;
+    font-style:normal;
+    font-weight:400;
+    speak-as:none;
+    display:inline-block;
+    line-height:.7em;
+    margin-top:-.15em;
+    z-index:1;
+    font-size:1em;
+    vertical-align:middle;
+    margin-left:1.45em;
+    margin-right:0;
+    position:relative;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    transition:transform .2s ease
+}
+.btn[class*=btn--icon]:hover:after{
+    transform:rotate(1turn)
+}
+
+.offices__slider {
+    margin: 0 -10px;
+    zoom: 1;
+}
+.offices__slider:after, .offices__slider:before {
+    content: "";
+    display: table;
+}
